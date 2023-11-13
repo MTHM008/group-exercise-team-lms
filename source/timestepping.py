@@ -19,5 +19,4 @@ def timeloop(method, rhs, Y0, dt, tmax, **kwargs):
         t += dt
         soln = np.vstack((soln, Ynp1))
         times.append(t)
-
     return times, soln
